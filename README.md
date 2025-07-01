@@ -96,7 +96,7 @@ AI-generated report includes:
 - Q&A response
 - Source highlights from the 10-K
 - ![Sample PDF](assets/sum_direct.pdf)
-- ![Sample AI generated PDF](assets/sum_ai.pdf)
+<!-- - ![Sample AI generated PDF](assets/sum_ai.pdf) -->
 
 ---
 
