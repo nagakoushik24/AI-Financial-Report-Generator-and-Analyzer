@@ -1,4 +1,4 @@
-# 📊 AI Financial Report Generator
+# 📊 AI Financial Report Generator and Analyzer
 
 An AI-powered web app that fetches, analyzes, and summarizes financial reports (10-K SEC filings) of top companies like Apple, Microsoft, and Tesla. The app extracts key financial metrics, generates executive summaries, and answers user questions using LLMs — all without needing an OpenAI key.
 
@@ -26,7 +26,6 @@ An AI-powered web app that fetches, analyzes, and summarizes financial reports (
 | PDF Parsing   | PyMuPDF (`fitz`)                  |
 | PDF Reports   | ReportLab                         |
 | Data Source   | SEC EDGAR (CIK → 10-K PDF)        |
-| Deployment    | GCP App Engine / Streamlit Cloud  |
 
 ---
 
@@ -96,14 +95,10 @@ AI-generated report includes:
 - Extracted KPIs
 - Q&A response
 - Source highlights from the 10-K
-- ![Sample PDF](assets/sam.pdf) 
+- ![Sample PDF](assets/sum_direct.pdf)
+- ![Sample AI generated PDF](assets/sum_ai.pdf)
 
-## 🌐 Deployment (GCP)
-
-- Deployed on Google Cloud Platform (GCP) using:
-- Google Cloud App Engine
-- GCS for file storage (if needed)
-- Streamlit public instance for UI
+---
 
 ## ✅ Applications
 
