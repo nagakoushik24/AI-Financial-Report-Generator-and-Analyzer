@@ -39,8 +39,17 @@ An AI-powered web app that fetches, analyzes, and summarizes financial reports (
 5. **Download PDF Summary**
 
 ![Screenshot](assets/first.png) 
+
+---
+
 ![Screenshot](assets/sum.png) 
+
+---
+
 ![Screenshot](assets/q1_ans.png) 
+
+---
+
 ![Screenshot](assets/q2_ans.png)
 
 ---
@@ -96,14 +105,14 @@ AI-generated report includes:
 - GCS for file storage (if needed)
 - Streamlit public instance for UI
 
-## ✅ Applications (4 Key Points)
+## ✅ Applications
 
 - Summarizes SEC 10-K filings into digestible text for investors, analysts, and researchers.
 - Allows users to ask financial questions (e.g. risks, revenue, liabilities) and receive contextual answers from the report.
 - Automatically extracts key performance indicators like Revenue, Net Income, and Liabilities.
 - Assists students and learners in understanding complex financial reports with AI-generated summaries.
 
-## 🚀 Future Work (4 Key Enhancements)
+## 🚀 Future Work
 
 - Enable users to compare company KPIs across different years for trend analysis.
 - Extend to filings like 8-K, 20-F, S-1, and quarterly 10-Qs beyond just 10-K reports.
