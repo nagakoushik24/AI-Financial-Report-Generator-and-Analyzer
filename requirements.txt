@@ -1,0 +1,16 @@
+streamlit==1.33.0
+PyMuPDF==1.23.21  # For reading PDFs (fitz)
+reportlab==4.1.0  # For generating PDF reports
+transformers==4.40.1
+sentence-transformers==2.6.1
+torch==2.2.2
+faiss-cpu==1.7.4
+langchain==0.1.20
+langchain-community==0.0.32
+langchain-core==0.1.51
+spacy==3.7.4
+beautifulsoup4==4.12.3
+requests==2.31.0
+numpy==1.26.4
+tqdm==4.66.4
+protobuf==3.20.*
